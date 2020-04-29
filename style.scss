@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.footer{
+    margin:200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    &__logo-block{
+        width: 125px;
+        height: 45px;
+    }
+    &__logo{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    &__title{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    &__line{
+        height: 1px;
+        width: 230px;
+        background-color: white;
+    }
+    &__social-block{
+        margin-top: 20px;
+    }
+    &__social{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}
+body{
+    background-color: black;
+}
